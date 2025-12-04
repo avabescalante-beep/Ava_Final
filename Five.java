@@ -1,0 +1,30 @@
+
+/**
+ * Write a description of class V here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public class Five{
+    public static void main(String[] args) {
+
+        int[] arr = {5, 8, 3, 9, 2, 7};
+        int target = 9;
+
+        System.out.print("Array: ");
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
+
+        System.out.println("Target: " + target);
+
+        for (int i = 0; i < arr.length; i++) {
+
+            if (arr[i] == target) {
+                System.out.println("Found at index: " + i);
+                break; 
+            }
+        }
+    }
+}
