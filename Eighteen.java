@@ -7,15 +7,7 @@
  */
 public class Eighteen{
     public static void main(String[] args) {
-
-        int[] arr = { 5, 2, 7, 5, 3, 8 };
-
-        System.out.print("Array: ");
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
-        }
-        System.out.println();
-
+        int[] arr = {5, 2, 7, 5, 3, 8};
         boolean hasDuplicate = false;
 
         for (int i = 0; i < arr.length; i++) {
@@ -25,15 +17,10 @@ public class Eighteen{
                     break;
                 }
             }
-            if (hasDuplicate) {
-                break;
-            }
+            if (hasDuplicate) break;
         }
 
-        if (hasDuplicate) {
-            System.out.println("The array contains duplicate values.");
-        } else {
-            System.out.println("The array does not contain duplicate values.");
-        }
+        if (hasDuplicate) System.out.println("The array contains duplicate values.");
+        else System.out.println("The array does not contain duplicate values.");
     }
 }
