@@ -5,23 +5,19 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Ten{
+public class Ten {
     public static void main(String[] args) {
-        int[] arr = { 5, 7, 9, 4, 8, 3 };
-
-        int index = 0;
+        int[] arr = {5, 7, 9, 4, 8, 3};
+        int index = -1;
 
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i] % 2 == 0) { 
+            if (arr[i] % 2 == 0) {
                 index = i;
                 break;
             }
         }
 
-        if (index != -1) {
-            System.out.println("The first even number is at index: " + index);
-        } else {
-            System.out.println("No even number found in the array.");
-        }
+        if (index != -1) System.out.println("The first even number is at index: " + index);
+        else System.out.println("No even number found in the array.");
     }
 }
