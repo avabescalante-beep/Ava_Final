@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Nineteen{
     public static void main(String[] args) {
 
-        String[] students = { "Guno", "Dagondon", "Bentozal", "Bete" };
+        String[] students = { "Grace", "Daganato", "Bernaldez", "Bentozal" };
         int[] grades = { 85, 72, 90, 78 };
 
         System.out.println("Students and their grades:");
